@@ -172,7 +172,7 @@ toRemove = [127]
 master = master[0], [cell for k,cell in enumerate(master[1]) if not (k in toRemove)]
 hpc = SKEL_1(STRUCT(MKPOLS(master)))
 hpc = cellNumbering (master,hpc)(range(len(master[1])),RED,2)
-VIEW(hpc)
+#VIEW(hpc)
 
 toMerge=2
 cell = MKPOL([master[0],[[v+1 for v in  master[1][toMerge]]],None])
@@ -181,7 +181,7 @@ diagram = assemblyDiagramInit([1,3,2])([[.3],[3,1,1],[2,1.3]])
 master = diagram2cell(diagram,master,toMerge)
 hpc = SKEL_1(STRUCT(MKPOLS(master)))
 hpc = cellNumbering (master,hpc)(range(len(master[1])),CYAN,2)
-VIEW(hpc)
+#VIEW(hpc)
 toRemove = [131]
 master = master[0], [cell for k,cell in enumerate(master[1]) if not (k in toRemove)]
 hpc = SKEL_1(STRUCT(MKPOLS(master)))
@@ -199,12 +199,44 @@ toRemove = [135,139]
 master = master[0], [cell for k,cell in enumerate(master[1]) if not (k in toRemove)]
 hpc = SKEL_1(STRUCT(MKPOLS(master)))
 hpc = cellNumbering (master,hpc)(range(len(master[1])),BLACK,2)
+#VIEW(hpc)
+#roba nuova
+toMerge=47
+cell = MKPOL([master[0],[[v+1 for v in  master[1][toMerge]]],None])
+#VIEW(STRUCT([hpc,cell]))
+diagram = assemblyDiagramInit([7,1,3])([[6,2,1.8,.2,1.8,2,6],[.3],[1,1.3,1]])
+master = diagram2cell(diagram,master,toMerge)
+hpc = SKEL_1(STRUCT(MKPOLS(master)))
+hpc = cellNumbering (master,hpc)(range(len(master[1])),BLACK,2)
+#VIEW(hpc)
+
+toRemove = [147,153]
+master = master[0], [cell for k,cell in enumerate(master[1]) if not (k in toRemove)]
+hpc = SKEL_1(STRUCT(MKPOLS(master)))
+hpc = cellNumbering (master,hpc)(range(len(master[1])),RED,2)
+#VIEW(hpc)
+
+
+toMerge=141
+cell = MKPOL([master[0],[[v+1 for v in  master[1][toMerge]]],None])
+#VIEW(STRUCT([hpc,cell]))
+diagram = assemblyDiagramInit([5,1,1])([[2,1.8,.2,1.8,2],[.3],[1.3]])
+master = diagram2cell(diagram,master,toMerge)
+hpc = SKEL_1(STRUCT(MKPOLS(master)))
+hpc = cellNumbering (master,hpc)(range(len(master[1])),BLACK,2)
+#VIEW(hpc)
+
+toRemove = [159,161]
+master = master[0], [cell for k,cell in enumerate(master[1]) if not (k in toRemove)]
+hpc = SKEL_1(STRUCT(MKPOLS(master)))
+hpc = cellNumbering (master,hpc)(range(len(master[1])),RED,2)
 VIEW(hpc)
+davanzaleP = T([1,2,3])([18.6,-0.3,1])(CUBOID([4.2,0.3,0.2]))
+davanzale2 = T([1,2,3])([12,-0.3,1])(CUBOID([3.6,0.3,0.2]))
 
 arancione =[2.55,1.40,0.0]    
 appartamento1= COLOR(arancione)(STRUCT(MKPOLS(master)))
 marmo= [1.39,1.39,1.22]
-
 terrazzo =T(1)(-3)(CUBOID([0.5,7,1]))
 lato1 =T(1)(-3)(CUBOID([3,0.5,1]))
 lato2 =T([1,2])([-3,7])(CUBOID([3,0.5,1]))
@@ -216,7 +248,7 @@ terrazzino2=T(2)(11)(terrazzino)
 
 
 pavimento=COLOR(marmo)(CUBOID([30.6,19.6,0.2]))
-appartamento=STRUCT([pavimento,appartamento1,terrazzino,terrazzino2])
+appartamento=STRUCT([pavimento,appartamento1,terrazzino,terrazzino2,davanzaleP,davanzale2])
 
 
 
