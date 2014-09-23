@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Progetto Finale</title>
+<style>
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+#stats {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#pointer {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+	width: 30px;
+	height: 30px;
+	display: none;
+	background-image: url("assets/textures/pointer.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+    #video {
+      display: none; 
+      position: absolute; 
+      left:0px; 
+      bottom: 0x;
+    }
+
+</style>
+</head>
+<body>
+
+	<div id="pointer"></div>
+	  <div id="stats"></div>
+	
+
+	<script src="assets/libs/jquery.min.js"></script>
+	<script src="assets/libs/three.min.js"></script>
+	<script src="assets/libs/Stats.min.js"></script>
+	<script src="assets/libs/dat.gui.min.js"></script>
+	<script src="assets/libs/PointerLockControls.js"></script>
+		<script src="assets/Mirror.js"></script>
+	
+	<script src="assets/libs/TrackballControls.js"></script>
+	<script src="assets/libs/OBJLoader.js"></script>
+	<script type="text/javascript" src="assets/script/CopiaNoTelecamera.js"></script>
+	<script type="text/javascript" src="assets/script/NoTelecamera.js"></script>
+	<script type="text/javascript" src="assets/script/porta.js"></script>
+	<script type="text/javascript" src="assets/script/muriShape.js"></script>
+	<script type="text/javascript" src="assets/script/pavimenti.js"></script>
+	<script type="text/javascript" src="assets/script/muriInterni.js"></script>
+	<script type="text/javascript" src="assets/script/bagno2.js"></script>
+	<script type="text/javascript" src="assets/script/muoviPerno.js"></script>
+	<script type="text/javascript" src="assets/script/animations.js"></script>
+	<script type="text/javascript" src="assets/script/arredaIngresso.js"></script>
+	<script type="text/javascript" src="assets/script/muri.js"></script>
+	<script type="text/javascript" src="assets/script/arredaSalone.js"></script>
+	<script type="text/javascript" src="assets/script/arredaMatteo.js"></script>
+	<script type="text/javascript" src="assets/script/bagno1.js"></script>
+	<script type="text/javascript" src="assets/script/luci.js"></script>
+	<script type="text/javascript" src="assets/script/arredaCamera2.js"></script>
+	<script type="text/javascript" src="assets/script/CreateDoors.js"></script>
+	<script type="text/javascript" src="assets/script/creaLampadine.js"></script>
+	<script type="text/javascript" src="assets/script/elementi.js"></script>
+	<script type="text/javascript" src="assets/script/loadLar.js"></script>
+	<script type="text/javascript" src="assets/script/arredaCamera3.js"></script>
+	<script type="text/javascript" src="assets/script/lampadine.js"></script>
+	<script type="text/javascript" src="assets/script/addWindows.js"></script>
+	<script type="text/javascript" src="assets/script/windows.js"></script>
+	<script type="text/javascript" src="assets/script/terrazzo.js"></script>
+	<script type="text/javascript" src="assets/script/guiControls.js"></script>
+	<script type="text/javascript" src="assets/script/PointerLock.js"></script>
+	<script type="text/javascript" src="assets/script/skybox.js"></script>
+	<script type="text/javascript" src="assets/script/particels.js"></script>
+	<script type="text/javascript" src="assets/script/arredaCucina.js"></script>
+	<script type="text/javascript" src="assets/script/picking.js"></script>
+	<script type="text/javascript" src="assets/libs/OBJLoader.js"></script>
+	<script type="text/javascript" src="assets/libs/MTLLoader.js"></script>
+	<script type="text/javascript" src="assets/libs/OBJMTLLoader.js"></script>
+	<script src="assets/libs/tween.min.js"></script>
+	<audio id="audio" src="assets/sounds/ToyStory.mp3"></audio>
+	<audio id="doorOp" src="assets/sounds/doorOpen.wav"></audio>
+	<audio id="doorCl" src="assets/sounds/doorClose.wav"></audio>
+	<audio id="lights" src="assets/sounds/light.wav"></audio>
+		<audio id="russo" src="assets/sounds/snoresc.wav"></audio>
+	
+   
+        <video id="video" src="assets/movies/winnie.3gp" controls="true" ></video> 
+    
+		
+	
+
+
+	<script>
+
+       CopiaNoTelecamera();
+
+	</script>
+
+
+</body>
+</html>
