@@ -36,10 +36,13 @@ aggiunge i muri esterni alla scena. </br>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/pavimenti.js">pavimenti.js</a>: aggiunge le mattonelle e iparquet alla scena </br>
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/porta.js">porta.js </a>: metodo parametrico per creare una porta </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/terrazzo.js"> terrazzo.js </a>
 terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante </br>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/windows.js"> windows.js </a> metodo parametrico per creare una finestra sfruttando le proprietà di trasparenza dei materiali </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/createDoors.js">createDoors.js </a>: metodo per creare le porte(definendo porta,perno e texture) e per aggiungerle alla scena </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/elementi.js"> elementi.js </a>
 :all'interno del metodo elementi vengono istanziati tutti gli oggetti di cui abbiamo bisogno per popolare la casa
 </br>
