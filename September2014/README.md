@@ -10,6 +10,7 @@ Questo è il link del progetto finale per il corso di <a href="http://cvdlab.org
 
 
 Organizzazione del codice: </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/iniziale.html">iniziale.html</a>: pagina html di avvio. Da questa schermata posso accendere e spegnere le luci e le lampadine, aprire le porte, creare diversi effetti(cambiare giorno/notte, attivare e disattivare la neve, accendere la televisione.
 Sempre dalla pagina di avvio cliccando sul bottone "startf" viene caricata la casa con la camera Pointer Lock: mostra la visuale con il pointer Lock. E' possibile navigare all'interno della casa proprio come in un videogioco! </br>
 La gui con i bottoni necessari per attivare e disattivare questi effetti è contenuto nel file
