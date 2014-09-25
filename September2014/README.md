@@ -3,6 +3,8 @@ here the link to the project!
 
 http://amadeimatti.github.io/progettofinale/iniziale.html
 
+Questo è il link del progetto finale per il corso di <a href="http://cvdlab.org/"> grafica computazonale </a> presso l'Universita Roma Tre, svolto utilizzando <a href="https://github.com/cvdlab/lar-cc-js"> LAR </a> per la realizzazione del modello in python e alcune librerie di javascript.
+
 
 
 
@@ -84,6 +86,7 @@ Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/Septembe
 
 <font color="blue"> TECNOLOGIE UTILIZZATE </font> </br>
 
+<a href="https://github.com/cvdlab/lar-cc-js"> LAR </a> per creare il modello della casa che ho poi importato all'interno del progetto
 <font color="blue"> AUDIO </font>: per far partire i rumori
 </br>
 
@@ -92,10 +95,28 @@ SPOTLIGHT: per le luci interne ed esterne dalla casa(luci generali e le lampadin
 
 GUI CONTROLS: per accendere e spegnere le luci e interagire con gli altri effetti della casa(animazioni)
 </br>
+
 OBJ + MTL IMPORT per inserire all'interno della scena i dettagli principali dell'abitazione
-CLICK SUGLI OGGETTI: per cliccare sulle porte per aprirle
-TWEEN: per far calciare il pallone all'uomo in corridoio, muovere il pupazzo, l'uomo ed altro ancora
-POINTER LOCK CAMERA: per fare il pointer lock
-TRACKBALL
+</br>
+
+CLICK SUGLI OGGETTI: per cliccare sulle porte per aprirle </br>
+
+TWEEN: per far calciare il pallone all'uomo in corridoio, muovere il pupazzo, l'uomo ed altro ancora </br>
+
+POINTER LOCK CAMERA: per fare il pointer lock </br>
+
+TRACKBALL </br>
+
+VIDEOTEXTURE per la televisione </br>
+
+MIRROR Ho utilizzato la libreria mirror.js per creare il laghetto ghiacciato accanto alla casa </br>
+
+PARTICLES Per definire il particleSystem della neve
+
+
+ 
+ 
+ 
+
 
 ====================
