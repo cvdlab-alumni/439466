@@ -26,8 +26,10 @@ La gui con i bottoni necessari per attivare e disattivare questi effetti è cont
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muri.js">muri.js</a>
 aggiunge i muri esterni alla scena. </br>
+
  <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriInterni.js">muriInterni.js</a> :aggiunge le carte da parati alla scena
 </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriShape.js">muriShape.js</a>: metodo per creare parametricamente una carta da parati o un muro esterno tenendo conto dei buchi delle porte e delle finestre </br>
 
 
@@ -39,6 +41,7 @@ aggiunge i muri esterni alla scena. </br>
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/terrazzo.js"> terrazzo.js </a>
 terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/windows.js"> windows.js </a> metodo parametrico per creare una finestra sfruttando le proprietà di trasparenza dei materiali </br>
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/createDoors.js">createDoors.js </a>: metodo per creare le porte(definendo porta,perno e texture) e per aggiungerle alla scena </br>
@@ -73,9 +76,16 @@ vengono definite le due skybox quella per il giorno e quella per la notte
 Contenuto delle altre cartelle:
 
 Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/sounds"> sounds </a> sono presenti diversi file con i rumori della casa
+</br>
 
-Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/texture"> sono presenti le texture Nella cartella models sono presenti i file OBJ Tecniche utilizzate TEXTURES: per le pareti(in 2 dimensioni) con repeat e per l'esterno con l'aggiunta di BUMP 
-AUDIO: per far partire i rumori
+Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/texture"> texture </a> sono presenti le texture  </br>
+
+Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/models"> models </a> sono presenti i file OBJ Tecniche utilizzate TEXTURES: per le pareti(in 2 dimensioni) con repeat e per l'esterno con l'aggiunta di BUMP 
+
+<font color="red"> TECNOLOGIE UTILIZZATE </font> </br>
+
+<font color="red"> AUDIO </font>: per far partire i rumori
+
 SPOTLIGHT: per le luci interne ed esterne dalla casa(luci generali e le lampadine posizionate nella scena)
 GUI CONTROLS: per accendere e spegnere le luci
 OBJ + MTL IMPORT per inserire all'interno della scena i dettagli principali dell'abitazione
