@@ -20,15 +20,20 @@ La gui con i bottoni necessari per attivare e disattivare questi effetti è cont
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/bagno2.js">bagno2.js</a>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaCucina.js">arredaCucina.js</a>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaIngresso.js">arredaIngresso.js</a>
-<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaSalone">arredaSalone.js</a>
-<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaMatteo.js">arredaMatteo.js</a> per arredare le varie stanze tramite il caricamento degli obj.
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaSalone.js">arredaSalone.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaMatteo.js">arredaMatteo.js</a> per arredare le varie stanze tramite il caricamento degli obj. </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/luci.js">luci.js</a> aggiunge le luci alla scena </br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muri.js">muri.js</a>
+aggiunge i muri esterni alla scena. 
+ <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriInterni.js">muriInterni.js</a> :aggiunge le carte da parati alla scena
+</br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriShape.js">muriShape.js</a>: metodo per creare parametricamente una carta da parati o un muro esterno tenendo conto dei buchi delle porte e delle finestre
 
 
-luci :aggiunge le luci alla scena muri:aggiunge i muri esterni alla scena muriInterni: aggiunge le carte da parati alla scena
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/CopiaNoTelecamera.js">init.js</a> metodo principale di avvio della scena con gli oggetti </br>
 
-muriShape: metodo per creare parametricamente una carta da parati o un muro esterno tenendo conto dei buchi delle porte e delle finestre
-
-NoTelecamera: metodo principale di avvio della scena con gli oggetti pavimenti: aggiunge le mattonelle e iparquet alla scena porta: metodo parametrico per creare una porta terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante 
+pavimenti: aggiunge le mattonelle e iparquet alla scena porta: metodo parametrico per creare una porta terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante 
 windows.js metodo parametrico per creare una finestra sfruttando le proprietà di trasparenza dei materiali
 
 Nella cartella sounds sono presenti diversi file con i rumori della casa
