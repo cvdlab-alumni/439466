@@ -3,7 +3,7 @@ here the link to the project!
 
 http://amadeimatti.github.io/progettofinale/iniziale.html
 
-Questo è il link del progetto finale per il corso di <a href="http://cvdlab.org/"> grafica computazonale </a> presso l'Universita Roma Tre, svolto utilizzando <a href="https://github.com/cvdlab/lar-cc-js"> LAR </a> per la realizzazione del modello in python e alcune librerie di javascript.
+Questo è il link del progetto finale per il corso di <a href="http://cvdlab.org/"> grafica computazonale </a> presso l'Universita Roma Tre, svolto utilizzando <a href="https://github.com/cvdlab/lar-cc-js"> LAR </a> per la realizzazione del modello in python e alcune librerie di javascript per aggiungere elementi decorativi e azioni.
 
 
 
