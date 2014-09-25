@@ -107,7 +107,7 @@ TWEEN: per far calciare il pallone all'uomo in corridoio, muovere il pupazzo, l'
 
 POINTER LOCK CAMERA: per fare il pointer lock </br>
 
-TRACKBALL </br>
+TRACKBALLCONTROLS </br>
 
 SKYBOX </br>
 
@@ -117,6 +117,7 @@ MIRROR Ho utilizzato la libreria mirror.js per creare il laghetto ghiacciato acc
 
 PARTICLES Per definire il particleSystem della neve
 
+MESH e BUMP MESH(con repeat)
 
  
  
