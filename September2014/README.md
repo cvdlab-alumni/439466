@@ -7,10 +7,22 @@ http://amadeimatti.github.io/progettofinale/iniziale.html
 
 
 
-Organizzazione del codice:
-<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/iniziale.html">iniziale,html</a>: pagina html di avvio. Da questa schermata posso accendere e spegnere le luci e le lampadine, aprire le porte e far partire la musica iniziale(di Toy Story) Sempre dalla pagina di avvio cliccando sul bottone "IniziaLaVisita" viene caricata la casa con la camera Pointer Lock playground.html: mostra la visuale con il pointer Lock
+Organizzazione del codice: </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/iniziale.html">iniziale.html</a>: pagina html di avvio. Da questa schermata posso accendere e spegnere le luci e le lampadine, aprire le porte, creare diversi effetti(cambiare giorno/notte, attivare e disattivare la neve, accendere la televisione.
+Sempre dalla pagina di avvio cliccando sul bottone "startf" viene caricata la casa con la camera Pointer Lock: mostra la visuale con il pointer Lock. E' possibile navigare all'interno della casa proprio come in un videogioco! </br>
+La gui con i bottoni necessari per attivare e disattivare questi effetti è contenuto nel file
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/guiControls.js">guiControls.js</a> </br>
 
-Dentro la cartella assets/script c'è addWindows: aggiunge le finestre alla casa arredaCamera2,bagno1,bagno2,arredaCamera3,arredaCucina,arredaIngresso,arredaSalone,arredaMatteo per arredare le varie stanze,tramite il caricamento degli obj 
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/addWindows.js">addWindows.js</a>: aggiunge le finestre alla casa </br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaCamera2.js">arredaCamera2.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/bagno1.js">bagno1.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/bagno2.js">bagno2.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaCucina.js">arredaCucina.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaIngresso.js">arredaIngresso.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaSalone">arredaSalone.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaMatteo.js">arredaMatteo.js</a> per arredare le varie stanze tramite il caricamento degli obj.
+
 
 luci :aggiunge le luci alla scena muri:aggiunge i muri esterni alla scena muriInterni: aggiunge le carte da parati alla scena
 
