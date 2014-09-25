@@ -20,24 +20,58 @@ La gui con i bottoni necessari per attivare e disattivare questi effetti è cont
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/bagno2.js">bagno2.js</a>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaCucina.js">arredaCucina.js</a>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaIngresso.js">arredaIngresso.js</a>
-<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaSalone.js">arredaSalone.js</a>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaSalone.js">arredaSalone.js</a> 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/arredaMatteo.js">arredaMatteo.js</a> per arredare le varie stanze tramite il caricamento degli obj. </br>
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/luci.js">luci.js</a> aggiunge le luci alla scena </br>
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muri.js">muri.js</a>
-aggiunge i muri esterni alla scena. 
+aggiunge i muri esterni alla scena. </br>
  <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriInterni.js">muriInterni.js</a> :aggiunge le carte da parati alla scena
 </br>
-<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriShape.js">muriShape.js</a>: metodo per creare parametricamente una carta da parati o un muro esterno tenendo conto dei buchi delle porte e delle finestre
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muriShape.js">muriShape.js</a>: metodo per creare parametricamente una carta da parati o un muro esterno tenendo conto dei buchi delle porte e delle finestre </br>
 
 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/CopiaNoTelecamera.js">init.js</a> metodo principale di avvio della scena con gli oggetti </br>
 
-pavimenti: aggiunge le mattonelle e iparquet alla scena porta: metodo parametrico per creare una porta terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante 
-windows.js metodo parametrico per creare una finestra sfruttando le proprietà di trasparenza dei materiali
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/pavimenti.js">pavimenti.js</a>: aggiunge le mattonelle e iparquet alla scena </br>
 
-Nella cartella sounds sono presenti diversi file con i rumori della casa
-Nella cartella textures sono presenti le texture Nella cartella models sono presenti i file OBJ Tecniche utilizzate TEXTURES: per le pareti(in 2 dimensioni) con repeat e per l'esterno con l'aggiunta di BUMP 
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/porta.js">porta.js </a>: metodo parametrico per creare una porta </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/terrazzo.js"> terrazzo.js </a>
+terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e le piante </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/windows.js"> windows.js </a> metodo parametrico per creare una finestra sfruttando le proprietà di trasparenza dei materiali </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/createDoors.js">createDoors.js </a>: metodo per creare le porte(definendo porta,perno e texture) e per aggiungerle alla scena </br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/elementi.js"> elementi.js </a>
+:all'interno del metodo elementi vengono istanziati tutti gli oggetti di cui abbiamo bisogno per popolare la casa
+</br>
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/skybox.js"> skybox.js </a>
+vengono definite le due skybox quella per il giorno e quella per la notte 
+</br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/muoviPerno.js"> muoviPerno.js </a> in questa classe viene definita l'animazione per aprire e chiudere le porte
+
+</br>
+
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/animations.js"> animations.js </a> in questa classe vengono definite alcune animazioni, come quella del pupazzo di neve, del ragazzo che dorme e della neve
+
+</br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/particels.js"> particels.js </a> in questa classe vengono definite il particleSystem, necessario per azionare la neve 
+</br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/picking.js"> picking.js </a> classe di supporto per l'intersect di alcuni oggetti(degli obj)
+
+</br>
+
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/lampadine.js"> lampadine.js </a> in questa classe vengono definite le lampadine, luci proprie di ogni stanza e attivabili tramite gui
+
+</br>
+
+Contenuto delle altre cartelle:
+
+Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/sounds"> sounds </a> sono presenti diversi file con i rumori della casa
+
+Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/texture"> sono presenti le texture Nella cartella models sono presenti i file OBJ Tecniche utilizzate TEXTURES: per le pareti(in 2 dimensioni) con repeat e per l'esterno con l'aggiunta di BUMP 
 AUDIO: per far partire i rumori
 SPOTLIGHT: per le luci interne ed esterne dalla casa(luci generali e le lampadine posizionate nella scena)
 GUI CONTROLS: per accendere e spegnere le luci
