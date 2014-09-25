@@ -8,8 +8,7 @@ http://amadeimatti.github.io/progettofinale/iniziale.html
 
 
 Organizzazione del codice:
-
-iniziale.html: pagina html di avvio. Da questa schermata posso accendere e spegnere le luci e le lampadine, aprire le porte e far partire la musica iniziale(di Toy Story) Sempre dalla pagina di avvio cliccando sul bottone "IniziaLaVisita" viene caricata la casa con la camera Pointer Lock playground.html: mostra la visuale con il pointer Lock
+<a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/iniziale.html">iniziale,html</a>: pagina html di avvio. Da questa schermata posso accendere e spegnere le luci e le lampadine, aprire le porte e far partire la musica iniziale(di Toy Story) Sempre dalla pagina di avvio cliccando sul bottone "IniziaLaVisita" viene caricata la casa con la camera Pointer Lock playground.html: mostra la visuale con il pointer Lock
 
 Dentro la cartella assets/script c'è addWindows: aggiunge le finestre alla casa arredaCamera2,bagno1,bagno2,arredaCamera3,arredaCucina,arredaIngresso,arredaSalone,arredaMatteo per arredare le varie stanze,tramite il caricamento degli obj 
 
