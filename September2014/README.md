@@ -52,6 +52,7 @@ terrazzo.js arreda e crea il terrazzo con la ringhiera il tavolo da ping pong e 
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/elementi.js"> elementi.js </a>
 :all'interno del metodo elementi vengono istanziati tutti gli oggetti di cui abbiamo bisogno per popolare la casa
 </br>
+
 <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/script/skybox.js"> skybox.js </a>
 vengono definite le due skybox quella per il giorno e quella per la notte 
 </br>
@@ -107,6 +108,8 @@ TWEEN: per far calciare il pallone all'uomo in corridoio, muovere il pupazzo, l'
 POINTER LOCK CAMERA: per fare il pointer lock </br>
 
 TRACKBALL </br>
+
+SKYBOX </br>
 
 VIDEOTEXTURE per la televisione </br>
 
