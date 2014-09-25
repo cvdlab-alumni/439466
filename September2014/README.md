@@ -82,14 +82,20 @@ Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/Septembe
 
 Nella cartella <a href="https://github.com/cvdlab-cg/439466/blob/master/September2014/WebContent/assets/models"> models </a> sono presenti i file OBJ Tecniche utilizzate TEXTURES: per le pareti(in 2 dimensioni) con repeat e per l'esterno con l'aggiunta di BUMP 
 
-<font color="red"> TECNOLOGIE UTILIZZATE </font> </br>
+<font color="blue"> TECNOLOGIE UTILIZZATE </font> </br>
 
-<font color="red"> AUDIO </font>: per far partire i rumori
+<font color="blue"> AUDIO </font>: per far partire i rumori
+</br>
 
 SPOTLIGHT: per le luci interne ed esterne dalla casa(luci generali e le lampadine posizionate nella scena)
-GUI CONTROLS: per accendere e spegnere le luci
+</br>
+
+GUI CONTROLS: per accendere e spegnere le luci e interagire con gli altri effetti della casa(animazioni)
+</br>
 OBJ + MTL IMPORT per inserire all'interno della scena i dettagli principali dell'abitazione
 CLICK SUGLI OGGETTI: per cliccare sulle porte per aprirle
-TWEEN: per far calciare il pallone all'uomo in corridoio POINTER LOCK CAMERA: per fare il pointer lock TRACKBALL
+TWEEN: per far calciare il pallone all'uomo in corridoio, muovere il pupazzo, l'uomo ed altro ancora
+POINTER LOCK CAMERA: per fare il pointer lock
+TRACKBALL
 
 ====================
